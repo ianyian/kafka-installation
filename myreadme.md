@@ -1,7 +1,7 @@
 # Kafka command
 
 1. install kafka ( https://kafka.apache.org/quickstart )
-2. follow video to setup ( https://www.youtube.com/watch?v=aKDWWICgfA0 )
+2. follow video to setup ( https://www.youtube.com/watch?v=U17DtHLOsTU&list=PLGRDMO4rOGcNLwoack4ZiTyewUcF6y6BU&index=1 )
     1. after extract .tgz and .tar , under windows folder contain executable bat file
     2. launch zookeeper ( .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties    [please make sure cmd is under administrator]
        + please check if port 2181 is open and running
