@@ -7,5 +7,5 @@
     2.2.1 please check if port 2181 is open and running
   2.3 launch kafka service ( .\bin\windows\kafka-server-start.bat .\config\server.properties
     2.3.1 please check if the port 9092 is open and running
-  2.4 create kafka topic ( .\bin\windows\kafka-topics.bat --create --topic topic-example --boostrap-server localhost:9092
+  2.4 create kafka topic ( .\bin\windows\kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092
   
