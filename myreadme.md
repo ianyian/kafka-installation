@@ -7,8 +7,8 @@
        + please check if port 2181 is open and running
     3. launch kafka service ( .\bin\windows\kafka-server-start.bat .\config\server.properties
         + please check if the port 9092 is open and running
-    4. create kafka topic ( .\bin\windows\kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092
-    5. create content event ( .\bin\windows\kafka-console-producer.bat --topic topic-example --bootstrap-server localhost:9092
+    4. create kafka topic ( .\bin\windows\kafka-topics.bat --create --topic topic-example --bootstrap-server localhost:9092 )
+    5. create content event ( .\bin\windows\kafka-console-producer.bat --topic topic-example --bootstrap-server localhost:9092 )
         ````
         > hello world
         > kafka topic event
@@ -16,6 +16,6 @@
         > demo 2
         > control + c // to exit input
         ````
-    6. read content event ( .\bin\windows\kafka-console-consumer.bat --topic topic-example --from-beginning --bootstrap-server localhost:9092
+    6. read content event ( .\bin\windows\kafka-console-consumer.bat --topic topic-example --from-beginning --bootstrap-server localhost:9092 )
     7. 
 
